@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(169, 216, 235);
+    margin-left: 25%;
+    margin-right: 25%;
+    font-family: 'Lucida Sans';
+}
+
+body, header, footer{
+    padding: 10px;
+}
+
+article{
+    margin: 10px;
+    padding: 20px;
+}
+
+header{
+    margin-left: 50px;
+}
+
+a.navigatie{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    height: 20px;
+    width: 100px;
+    padding: 12px;
+    text-align: center;
+}
+
+a.navigatie:hover{
+    color: darkblue;
+    background-color: turquoise;
+    border-style: none;
+    border-radius: 3px;
+
+}
+    
+nav{
+    background-color: darkblue;
+    border-radius: 5px;
+}
+    
+table{
+    margin:20px;
+    text-align: left;
+}
+
+td, th{padding: 3px 20px;}
+th{font-size: 20px;}
+
+
+input[type="text"], input[type="email"], textarea, button{
+    display: block;
+    margin: 15px 0px;
+    width: 400px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    box-shadow: inset 1px 1px 7px rgba(4, 70, 250, 0.418);
+    padding: 5px;
+}
+
+textarea{
+    height: 100px;
+}
+    
+button{
+    height: 35px;
+    background-color: rgba(144, 174, 230, 0.753);
+    color: Black;
+}
+button:active{
+    background-color: rgb(153, 0, 255);
+    color: white;
+    border-radius: 3px;
+    box-shadow: inset 2px 2px 5px rgb(153, 0, 255);
+}
+
+section.Opleiding{
+    padding: 5px;
+}
+section.Werkervaring{
+    padding: 5px;
+}
